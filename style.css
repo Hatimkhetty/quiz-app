@@ -1,0 +1,79 @@
+body{
+    background-color: burlywood;
+    width: 100%;
+}
+
+.start-page {
+    font-size:30px;
+    margin: 0 auto;
+    padding: 0% auto;
+    text-align: center;
+  
+    width: 100%;
+    height: 100%;
+}
+
+#Start-quiz {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px 3px 3px 3px;
+    color: brown;
+    
+}
+.quiz-page {
+    margin: 0 auto;
+    padding: 0% auto;
+
+}
+#general {
+
+    font-size: 35px;
+}
+
+.timer {
+    font-size: 30px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+#general {
+    text-align: center;
+}
+#question {
+ text-align: center;
+}
+#question {
+  font-size: 30px;
+}
+.next-question {
+    text-align: center !important;
+}
+
+label {
+    font-size: 40px;
+}
+
+.labe-input {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.lab-inner {
+    text-align: left;
+}
+
+.input1 {
+
+font-size: 50px;
+text-align: left;
+justify-content: left;
+}
+
+.next-question {
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 3px 3px 3px 3px;
+    color: rgb(79, 42, 165);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz-page">
+        <div>
+            <h1 id="general">General Knowlege Questions</h1>
+        </div>
+        <div class="timer">
+            <div>
+                <h1 id="min"></h1>
+            </div>
+            <div>
+                <h1 id="sec"></h1>
+            </div>
+        </div>
+
+
+        <div>
+            <p id="question"></p>
+        </div>
+
+        <div class="labe-input">
+            <div id="lab=inner">
+                <label class="input1">
+                    <input onclick="enable()" type="radio" name="option">
+                    <span id="option1"></span>
+                </label>
+                <br>
+                <label class="input1">
+                    <input onclick="enable()" type="radio" name="option">
+                    <span id="option2"></span>
+                </label>
+                <br>
+                <label class="input1">
+                    <input onclick="enable()" type="radio" name="option">
+                    <span id="option3"></span>
+                </label>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="next-question">
+        
+            <button  class="next-question" id="btn" onclick="nextquestion()"> Next Question </button>
+        </div>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
